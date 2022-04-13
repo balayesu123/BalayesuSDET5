@@ -18,8 +18,7 @@ public class DemoClass {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver= new ChromeDriver();
 		
-		driver.get("www.google.com");
-		driver.findElement(By.id("input")).click();
+		
 		}
 
 }
