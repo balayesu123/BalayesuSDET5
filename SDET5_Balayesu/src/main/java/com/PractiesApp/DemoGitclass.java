@@ -5,6 +5,8 @@ package com.PractiesApp;
  *
  */
 public class DemoGitclass {
-  //name
+	
+	String name1="Padmaja";
+
   String name ="balayesu";
 }

@@ -5,5 +5,9 @@ package com.PractiesApp;
  *
  */
 public class DEmo {
+
+ String nm="Padmaja";
+
   String m="name";
+ 
 }
