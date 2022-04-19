@@ -92,7 +92,7 @@ public class TC001_Create_OrganizationDDTest extends BaseClass {
 //			System.out.println("TC Passed");	
 //		}
 //		else {
-//			System.out.println("FAil");
+//			System.out.println("TC Fail");
 //		}
 		
 		Assert.assertEquals(msg, "No Organization Found !");

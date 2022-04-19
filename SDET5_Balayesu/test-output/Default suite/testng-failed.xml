@@ -3,11 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Practies.Skip_Test">
+      <class name="com.Vtiger_Application.TC002_CreatOgrTest">
         <methods>
-          <include name="clickOrgLink"/>
+          <include name="beforeclass"/>
+          <include name="afterSuite"/>
+          <include name="createOrgWithMobileNumTest"/>
+          <include name="beforesuite"/>
+          <include name="afterClass"/>
+          <include name="logout"/>
+          <include name="logintoVtiger"/>
         </methods>
-      </class> <!-- com.Practies.Skip_Test -->
+      </class> <!-- com.Vtiger_Application.TC002_CreatOgrTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
