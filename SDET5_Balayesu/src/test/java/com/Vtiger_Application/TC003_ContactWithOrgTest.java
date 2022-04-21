@@ -49,13 +49,6 @@ public class TC003_ContactWithOrgTest extends BaseClass {
 
 		//String fname=driver.findElement(By.xpath("//span[@vtfieldname='lastname']/..")).getText();
 		String fname=contactInfoPage.getGetTextOrgLastName().getText();
-
-//		if(fname.equals(contactname)) {
-//			System.out.println("TC Pass");
-//		}
-//		else {
-//			System.out.println("TC Fail");
-//		}
 		
 		Assert.assertEquals(fname, contactname);
 	}
