@@ -28,7 +28,6 @@ public class GetPricesUnder5000inFlipcart {
 	 		String newprice2 = newprice.replace("₹", "");
 	 		int finalprice=Integer.parseInt(newprice2);
 	 		System.out.println(finalprice+250);
-	 	}
-	 	
-}
+	 	}	
+  }
 }

@@ -9,7 +9,7 @@ public class Singleton {
     {
     	
     }
-    public static Singleton getobj()
+    public static Singleton getSin()
     {
     	
     	 obj=new Singleton();

@@ -121,7 +121,6 @@ public class WebDriverUtils {
 
 	public void switchTowindow(String title) {
 		Set<String> windowId = driver.getWindowHandles();
-		//Iterator<String> iterator=windowId.iterator();
 		Iterator<String> iterator = windowId.iterator();
 
 		while(iterator.hasNext()) 

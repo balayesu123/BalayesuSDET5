@@ -25,12 +25,12 @@ public class Find_by_last_char_of_the_word {
 		
 		for(int i=1 ; i <  options.size() ; i++)
 		{
-			String option=options.get(i).getText();
-			char ch=option.charAt(option.length()-1);
+			String opt=options.get(i).getText();
+			char ch=opt.charAt(opt.length()-1);
 			
 			if(ch=='e')
 			{
-				System.out.println(option);
+				System.out.println(opt);  
 				options.get(i).click();
 				break;
 			}

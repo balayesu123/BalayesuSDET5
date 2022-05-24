@@ -1,6 +1,11 @@
 eclipse.preferences.version=1
 encoding//src/main/java/com/CRM/TestCases/GetPricesUnder5000inFlipcart.java=UTF-8
 encoding//src/main/java/com/PractiesApp/Compare_Two_ProductPrices.java=UTF-8
+encoding//src/main/java/com/PractiesApp/DemoClass.java=UTF-8
+encoding//src/main/java/com/PractiesApp/Dynamic_Xpath.java=UTF-8
 encoding//src/main/java/com/PractiesApp/Flipcart_AddtoCart.java=UTF-8
 encoding//src/main/java/com/PractiesApp/FlipkartApp.java=UTF-8
+encoding//src/main/java/com/PractiesApp/HeadLess_HtmlUnitDriver.java=UTF-8
+encoding//src/main/java/com/PractiesApp/Headless_ChromeBrowser.java=UTF-8
+encoding//src/main/java/com/PractiesApp/Print_Google_Page_All_languages.java=UTF-8
 encoding//src/main/java/com/PractiesApp/Svg_xpath.java=UTF-8

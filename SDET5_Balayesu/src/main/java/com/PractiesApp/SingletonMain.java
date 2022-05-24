@@ -4,9 +4,9 @@ public class SingletonMain {
 
 	public static void main(String[] args) {
 
-		Singleton obje = Singleton.getobj();
+		Singleton obje = Singleton.getSin();
 
-		System.out.println(obje.age);
+		System.out.println(obje.name);
 	}
 
 }

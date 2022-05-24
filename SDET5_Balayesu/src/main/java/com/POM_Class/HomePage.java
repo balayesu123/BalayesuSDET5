@@ -10,7 +10,7 @@ import com.generic.WebDriverUtils;
 public class HomePage { // Rule1 class name should be page name
 	  
 	WebDriver driver;
-	// Rule2 @FindBy and @FindBya and @FindByAll annotations used for web elements
+	// Rule2 @FindBy and @FindBys and @FindByAll annotations used for web elements
 	
 	@FindBy(xpath="//input[@value='Search...']")
 	private WebElement searchbox;

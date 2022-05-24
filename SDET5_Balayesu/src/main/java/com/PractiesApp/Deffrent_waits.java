@@ -27,7 +27,9 @@ public class Deffrent_waits {
 		options.addArguments("incognito");
 		WebDriver driver=new ChromeDriver(options);
 		driver.manage().window().maximize();
+		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		
 		driver.get("http://localhost:8888");
 		driver.findElement(By.name("user_name")).sendKeys("admin",Keys.TAB,"admin",Keys.ENTER);
 		WebElement ele = driver.findElement(By.xpath("//a[text()='Organizations']"));
