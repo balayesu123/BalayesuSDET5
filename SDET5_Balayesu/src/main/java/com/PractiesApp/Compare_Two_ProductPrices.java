@@ -2,6 +2,7 @@ package com.PractiesApp;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
@@ -17,7 +18,8 @@ public class Compare_Two_ProductPrices {
 		driver.manage().window().maximize();
 		driver.get("https://www.flipkart.com/");
 		driver.findElement(By.xpath("//button[text()='✕']")).click();
-		driver.findElement(By.name("q")).sendKeys("Redmi Note 11 (Horizon Blue, 64 GB)");
+		WebElement searchbocelement = driver.findElement(By.name("q"));
+		searchbocelement.sendKeys("Redmi Note 11 (Horizon Blue, 64 GB)");
 		driver.findElement(By.cssSelector("button[type='submit']")).click();
 		Thread.sleep(3000);
 		String flipkart=driver.findElement(By.xpath("//div[text()='Redmi Note 11 (Horizon Blue, 64 GB)']/../../div[2]/div/div/div")).getText();

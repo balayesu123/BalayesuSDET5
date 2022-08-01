@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class FindByAnnatetions {
+public class Lenskart_DropDown {
   @Test
   public void lenskart()
   {

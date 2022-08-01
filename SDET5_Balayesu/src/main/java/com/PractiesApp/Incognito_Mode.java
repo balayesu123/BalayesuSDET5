@@ -1,6 +1,5 @@
 package com.PractiesApp;
 
-import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
 import java.time.Duration;
@@ -14,11 +13,9 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-import com.github.javafaker.Options;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Deffrent_waits {
+public class Incognito_Mode {
 	@Test
 	public void defferentWaits() throws Exception
 	{

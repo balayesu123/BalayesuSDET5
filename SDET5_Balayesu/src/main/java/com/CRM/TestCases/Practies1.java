@@ -16,7 +16,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Practies1 {
 	@SuppressWarnings("deprecation")
 	public static void main(String[] args) throws Throwable {
-		//stem.setProperty("webdriver.chrome.driver","G:\\seleniumDrivers\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver","G:\\seleniumDrivers\\chromedriver.exe");
 
 		FileInputStream fil=new FileInputStream("./SDET_DataDrivenFile.properties");
 		Properties p=new Properties();

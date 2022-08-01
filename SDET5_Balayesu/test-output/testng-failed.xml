@@ -1,13 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
     <classes>
-      <class name="com.PractiesApp.FindByAnnatetions">
+      <class name="com.Vtiger_Application.TC001_Create_OrganizationDDTest">
         <methods>
-          <include name="lenskart"/>
+          <include name="beforeclass"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+          <include name="beforesuite"/>
+          <include name="logout"/>
+          <include name="logintoVtiger"/>
+          <include name="create_OrganizationDDTest"/>
+          <include name="deleteOrgTest"/>
         </methods>
-      </class> <!-- com.PractiesApp.FindByAnnatetions -->
+      </class> <!-- com.Vtiger_Application.TC001_Create_OrganizationDDTest -->
+      <class name="com.Vtiger_Application.TC003_ContactWithOrgTest">
+        <methods>
+          <include name="contactWithOrgTest"/>
+          <include name="beforeclass"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+          <include name="beforesuite"/>
+          <include name="logout"/>
+          <include name="logintoVtiger"/>
+        </methods>
+      </class> <!-- com.Vtiger_Application.TC003_ContactWithOrgTest -->
+      <class name="com.Vtiger_Application.TC002_CreatOgrTest">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="afterSuite"/>
+          <include name="createOrgWithMobileNumTest"/>
+          <include name="afterClass"/>
+          <include name="beforesuite"/>
+          <include name="creatOgrTest"/>
+          <include name="logout"/>
+          <include name="logintoVtiger"/>
+        </methods>
+      </class> <!-- com.Vtiger_Application.TC002_CreatOgrTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

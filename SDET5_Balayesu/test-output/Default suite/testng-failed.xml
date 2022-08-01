@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.PractiesApp.FindByAnnatetions">
+      <class name="com.PractiesApp.Flipcart_AddtoCart">
         <methods>
-          <include name="lenskart"/>
+          <include name="addToCart"/>
         </methods>
-      </class> <!-- com.PractiesApp.FindByAnnatetions -->
+      </class> <!-- com.PractiesApp.Flipcart_AddtoCart -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -16,23 +16,30 @@ public class Print_All_Links_Webpage {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 
-		List<WebElement> links = driver.findElements(By.tagName("a"));		
-		for (int i = 0; i <links.size(); i++) 
+		List<WebElement> links = driver.findElements(By.tagName("a"));	
+	
+	/*	for (int i = 0; i <links.size(); i++) 
 		{
+			// WebElement l = links.get(i);
+			// String str = l.getAttribute("href");
+			// System.out.println(str);
+			
+			       // ****** OR *******
+			
+			//String str1 = links.get(i).getAttribute("href");
+			// System.out.println(str1);
+			
+			       // ******* OR ******
+			
 			System.out.println(links.get(i).getAttribute("href"));
-			//System.out.println(links.get(i).getText());
-//			char h=linkname.charAt(0);
-//			System.out.println(h);
-//			if(h=='a') {
-//				System.out.println(linkname);
-//			}
-//
-		}
-
-
-
+			
+		}  */
 		
-
+		// ************* foreach loop***********
+		
+		for(WebElement link : links)
+		{
+			System.out.println(link.getAttribute("href"));
+		}
 	}
-
 }

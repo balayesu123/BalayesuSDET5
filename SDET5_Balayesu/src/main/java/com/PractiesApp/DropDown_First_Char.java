@@ -19,17 +19,16 @@ public class DropDown_First_Char {
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	driver.get("https://www.amazon.com/");
 	List<WebElement> dropdown = driver.findElements(By.xpath("//select[@id='searchDropdownBox']/option"));
-	
 	for(int i=0 ; i<dropdown.size() ; i++)
 	{
 	      String tex = dropdown.get(i).getText();
 	     char ch = tex.charAt(0);
 	     if(ch=='B') 
 	     {
-	    	 System.out.append(tex);
+	    	 System.out.println(tex);
 	    	 dropdown.get(i).click();
 	     }
-	 
+	     
 	}
 	
 	
