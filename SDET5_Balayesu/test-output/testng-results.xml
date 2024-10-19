@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-22T13:51:46 IST" name="Default suite" finished-at="2022-07-22T13:52:18 IST" duration-ms="31642">
+  <suite started-at="2022-12-18T19:08:56 IST" name="Default suite" finished-at="2022-12-18T19:09:55 IST" duration-ms="59018">
     <groups>
     </groups>
-    <test started-at="2022-07-22T13:51:46 IST" name="Default test" finished-at="2022-07-22T13:52:18 IST" duration-ms="31642">
-      <class name="com.Practies.ExtendReport">
-        <test-method signature="testReport()[pri:0, instance:com.Practies.ExtendReport@31ea9581]" started-at="2022-07-22T13:51:46 IST" name="testReport" finished-at="2022-07-22T13:52:18 IST" duration-ms="31570" status="PASS">
+    <test started-at="2022-12-18T19:08:56 IST" name="Default test" finished-at="2022-12-18T19:09:55 IST" duration-ms="59018">
+      <class name="com.PractiesApp.FlipkartApp">
+        <test-method signature="flipkart()[pri:0, instance:com.PractiesApp.FlipkartApp@5e5d171f]" started-at="2022-12-18T19:08:56 IST" name="flipkart" finished-at="2022-12-18T19:09:55 IST" duration-ms="58991" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testReport -->
-      </class> <!-- com.Practies.ExtendReport -->
+        </test-method> <!-- flipkart -->
+      </class> <!-- com.PractiesApp.FlipkartApp -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
